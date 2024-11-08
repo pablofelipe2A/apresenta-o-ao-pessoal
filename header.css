@@ -1,9 +1,9 @@
 /* Estilos para o cabeçalho */
 header {
-  background-color: #3498db;
-  color: #ffffff;
-  padding: 40px 20px;
   text-align: center;
+  padding: 40px 20px;
+  background-color: #0066cc;
+  color: #fff;
 }
 
 header h1 {
@@ -13,5 +13,5 @@ header h1 {
 
 header p {
   font-size: 1.2em;
-  margin-top: 10px;
+  margin: 10px 0 0;
 }
