@@ -1,4 +1,4 @@
-/* Estilo para a estrutura principal do site */
+/* Estilos gerais para a página */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,94 +6,83 @@ body {
   background-color: #f4f4f4;
 }
 
+h1, h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #007BFF;
+}
+
 section {
-  padding: 20px;
   margin: 20px auto;
+  padding: 20px;
   width: 90%;
   max-width: 800px;
   background-color: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  color: #333;
-  font-size: 1.5em;
-  margin-bottom: 15px;
-}
-
-/* Estilo para a seção de perfil */
+/* Estilos da seção de perfil */
 .perfil {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
-.perfil .foto {
+.perfil img {
+  border-radius: 50%;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  margin-right: 20px;
 }
 
-.perfil p {
-  font-size: 1em;
-  color: #555;
+.perfil h2 {
+  margin-top: 0;
 }
 
-/* Estilo para a seção de músicas */
-.musicas, .videos, .estudo, .outros-sites {
-  text-align: center;
+/* Estilos das seções de músicas e vídeos */
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
 }
 
 .musica-card, .video-card {
-  display: inline-block;
-  width: 180px;
-  margin: 10px;
+  min-width: 200px;
   text-align: center;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.musica-card:hover, .video-card:hover {
-  transform: scale(1.05);
 }
 
 .musica-card img, .video-card img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .musica-card p, .video-card p {
-  margin: 10px 0;
-  color: #333;
-  font-size: 1em;
+  margin-top: 5px;
 }
 
-/* Estilo para a lista de sites úteis */
-.estudo ul, .outros-sites ul {
+/* Estilos das listas de sites */
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-.estudo li, .outros-sites li {
+ul li {
   margin: 10px 0;
 }
 
-.estudo a, .outros-sites a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-.estudo a:hover, .outros-sites a:hover {
-  text-decoration: underline;
-}
-
-/* Rodapé */
+/* Estilo do rodapé */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #333;
   color: #fff;
+  margin-top: 20px;
 }
