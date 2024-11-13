@@ -26,7 +26,7 @@ section {
   max-width: 800px;
   background-color: #23272A;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 /* Estilos da seção de perfil */
@@ -83,6 +83,6 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #333;
-  color: #333;
+  color: #ffffff;
   margin-top: 20px;
 }
